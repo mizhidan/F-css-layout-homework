@@ -18,3 +18,20 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+header {
+  height: 50px;
+}
+
+.nav-bar {
+  background-color: black;
+  width: 100%;
+  color: rgba(235, 235, 235, 0.788);
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.nav-bar span {
+  transform: translate(0, 25%);
+}
