@@ -35,3 +35,12 @@ header {
 .nav-bar span {
   transform: translate(0, 25%);
 }
+
+.main-content {
+  margin: 0 10%;
+}
+
+.about {
+  background-color: rgba(235, 235, 235, 0.788);
+  width: 10%;
+}
