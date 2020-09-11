@@ -71,3 +71,30 @@ header {
 .articles {
   width: 30%;
 }
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-box {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgba(241, 241, 241, 0.473);
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-box button {
+  border: none;
+  background-color: rgba(0, 107, 194, 0.747);
+  color: white;
+  border-radius: 3px;
+}
