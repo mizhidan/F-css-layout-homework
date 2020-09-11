@@ -38,15 +38,36 @@ header {
 
 .main-content {
   margin: 0 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-aside {
+  width: 10%;
 }
 
 .about {
   background-color: rgba(235, 235, 235, 0.788);
-  width: 10%;
 }
 
 .nav-bar-aside {
   display: flex;
   flex-direction: column;
-  width: 10%;
+}
+
+.article {
+  border: 1px solid grey;
+  margin-top: 20px;
+}
+
+.article figure {
+  margin: 0;
+}
+
+.article img {
+  width: 100%;
+}
+
+.articles {
+  width: 30%;
 }
