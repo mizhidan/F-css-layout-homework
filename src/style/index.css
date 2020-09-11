@@ -44,3 +44,9 @@ header {
   background-color: rgba(235, 235, 235, 0.788);
   width: 10%;
 }
+
+.nav-bar-aside {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+}
